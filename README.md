@@ -2,6 +2,11 @@
 
 ReactiveRouter allows you write and use the React Router in Ruby through Opal.
 
+### Note
+
+This gem is in the process of being re-written. It will be based on latest react-router which is way better. Please see the [v2-4-0 branch](https://github.com/catprintlabs/reactor-router/tree/v2-4-0).
+If you you want to use this branch with `reactive-rails-generator`, be sure to remove `require 'react_router` from `components.rb`. And to use the new Router syntax as per the docs.
+
 ## Installation
 
 Add this line to your application's Gemfile:
